@@ -25,3 +25,9 @@ steps:
 
 - script: dotnet build ./MvcMovie
   displayName: dotnet build ./MvcMovie
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: test
+    projects: './XUnitTestProject1/*.csproj'
+    arguments: '--configuration $(buildConfiguration)'
