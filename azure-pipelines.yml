@@ -23,5 +23,5 @@ steps:
 #     ls
 #   displayName: Show directory contents
 
-- script: dotnet build
-  displayName: dotnet build
+- script: dotnet build ./MvcMovie
+  displayName: dotnet build ./MvcMovie
