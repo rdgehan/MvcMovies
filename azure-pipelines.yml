@@ -33,4 +33,4 @@ steps:
   condition: succeededOrFailed()
   inputs:
     testRunner: VSTest
-    testResultsFiles: './MvcMovie/**/*.trx'
+    testResultsFiles: '**/*.trx'
