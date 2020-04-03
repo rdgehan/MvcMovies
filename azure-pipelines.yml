@@ -26,8 +26,11 @@ steps:
 - script: dotnet build ./MvcMovie
   displayName: dotnet build ./MvcMovie
 
-- task: DotNetCoreCLI@2
+- script: dotnet test --logger trx
+  displayName: dotnet test
+
+- task: PublishTestResults@2
+  condition: succeededOrFailed()
   inputs:
-    command: test
-    projects: './XUnitTestProject1/*.csproj'
-    arguments: '--configuration $(buildConfiguration)'
+    testRunner: VSTest
+    testResultsFiles: '**/*.trx'
