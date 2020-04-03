@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="563ec345-b250-407c-b461-f3f6f5f56b51" name="rdgeh@DESKTOP-91H40SI 2020-04-03 09:53:48" runUser="DESKTOP-91H40SI\rdgeh" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2020-04-03T09:53:48.6387170-05:00" queuing="2020-04-03T09:53:48.6387182-05:00" start="2020-04-03T09:53:47.6525127-05:00" finish="2020-04-03T09:53:48.6502553-05:00" />
+  <TestSettings name="default" id="d6d0e89b-eee2-4b99-9c74-81f32d5e2f2c">
+    <Deployment runDeploymentRoot="rdgeh_DESKTOP-91H40SI_2020-04-03_09_53_48" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="a22e4ba9-d583-4b30-9699-6cfe08e67a9c" testId="c83d33e2-fe9c-ff59-0358-de360c1dba3a" testName="XUnitTestProject1.UnitTest1.Test2" computerName="DESKTOP-91H40SI" duration="00:00:00.0001778" startTime="2020-04-03T09:53:48.5199920-05:00" endTime="2020-04-03T09:53:48.5199926-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a22e4ba9-d583-4b30-9699-6cfe08e67a9c" />
+    <UnitTestResult executionId="51e3d30e-47fc-41d5-b21f-1332fe5943f5" testId="5d8ec637-9caf-f156-413e-9d1b4b91d311" testName="XUnitTestProject1.UnitTest1.Test1" computerName="DESKTOP-91H40SI" duration="00:00:00.0020610" startTime="2020-04-03T09:53:48.5161118-05:00" endTime="2020-04-03T09:53:48.5162017-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="51e3d30e-47fc-41d5-b21f-1332fe5943f5" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="XUnitTestProject1.UnitTest1.Test2" storage="c:\revature\mvcmovies\xunittestproject1\bin\debug\netcoreapp3.1\xunittestproject1.dll" id="c83d33e2-fe9c-ff59-0358-de360c1dba3a">
+      <Execution id="a22e4ba9-d583-4b30-9699-6cfe08e67a9c" />
+      <TestMethod codeBase="C:\Revature\MvcMovies\XUnitTestProject1\bin\Debug\netcoreapp3.1\XUnitTestProject1.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="XUnitTestProject1.UnitTest1" name="Test2" />
+    </UnitTest>
+    <UnitTest name="XUnitTestProject1.UnitTest1.Test1" storage="c:\revature\mvcmovies\xunittestproject1\bin\debug\netcoreapp3.1\xunittestproject1.dll" id="5d8ec637-9caf-f156-413e-9d1b4b91d311">
+      <Execution id="51e3d30e-47fc-41d5-b21f-1332fe5943f5" />
+      <TestMethod codeBase="C:\Revature\MvcMovies\XUnitTestProject1\bin\Debug\netcoreapp3.1\XUnitTestProject1.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="XUnitTestProject1.UnitTest1" name="Test1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="c83d33e2-fe9c-ff59-0358-de360c1dba3a" executionId="a22e4ba9-d583-4b30-9699-6cfe08e67a9c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d8ec637-9caf-f156-413e-9d1b4b91d311" executionId="51e3d30e-47fc-41d5-b21f-1332fe5943f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.0 (64-bit .NET Core 3.1.3)&#xD;
+[xUnit.net 00:00:00.31]   Discovering: XUnitTestProject1&#xD;
+[xUnit.net 00:00:00.34]   Discovered:  XUnitTestProject1&#xD;
+[xUnit.net 00:00:00.34]   Starting:    XUnitTestProject1&#xD;
+[xUnit.net 00:00:00.40]   Finished:    XUnitTestProject1&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
